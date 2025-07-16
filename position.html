@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>csss position </title>
+    <link rel="stylesheet" href="position.css">
+    <style>
+        .box {
+            border: 3px dotted purple;
+            width: 900px;
+        }
+
+        .boy {
+            position: relative;
+            left: 90px;
+            top: 70px;
+        }
+
+        /* .water {
+            position: relative;
+            right: 200px;
+            top: 70px;
+        } */
+        .boy {
+            position: absolute;
+            top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>css position</h2>
+    <ol>
+        <li>static </li>
+        <li>relative</li>
+        <li>absolute</li>
+        <li>fixt</li>
+        <li>staky</li>
+    </ol>
+    <div class="swime-container">
+        <div class="box boy"><img src="/image/boy.jpg" alt=""></div>
+        <div class="box swime"><img src="/image/swime.jpg" alt=""></div>
+        <div class="box water"><img src="image/water.jpg" alt=""></div>
+
+    </div>
+
+</body>
+
+</html>
